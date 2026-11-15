@@ -38,9 +38,9 @@ cap = cv2.VideoCapture(0)
 
 counter = 0
 
-# Seuil augmenté à 45 frames (~1,5s) pour éviter les faux positifs sur les clignements normaux
+# Seuil augmenté à 75 frames (~2.5s) pour éviter les faux positifs sur les clignements normaux
 
-CONSEC_FRAMES_THRESHOLD = 45
+CONSEC_FRAMES_THRESHOLD = 75
 
 
 
